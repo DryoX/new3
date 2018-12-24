@@ -29,7 +29,7 @@ bot.on("message", async message => {
 		
 		let wirav = new Discord.RichEmbed()
 		.setColor("RANDOM")
-		.addField("Information", Created By Next);
+		.addField("Information", "Created By Next");
 		
 		return message.channel.send(wirav);
 		
