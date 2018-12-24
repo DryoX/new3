@@ -25,7 +25,7 @@ bot.on("message", async message => {
 	let cmd = messageArray[0];
 	let args = messageArray.slice(1);
 	
-	let(cmd === `${prefix}info`){
+        if(cmd === `${prefix}info`){
 		
 		let wirav = new Discord.RichEmbed()
 		.setColor("RANDOM")
