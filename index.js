@@ -54,6 +54,8 @@ bot.on("message", async message => {
 		   .addField("Bug report!", rep);
 		   
 		   bot.user.get("378074425066520577").send(afg);
+		
+		
 	
 });
 
