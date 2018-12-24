@@ -4,7 +4,7 @@ const bot = new Discord.Client({
 	disableEveryone: true
 });
 
-const crq = ["Halo!", "Merry Christmas 25/18!", "Happy New Year 18/19!"];
+const asy = ["Halo!", "Merry Christmas 25/18!", "Happy New Year 18/19!"];
 
 //Bot will start from here!
 
