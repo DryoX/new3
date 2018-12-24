@@ -53,7 +53,7 @@ bot.on("message", async message => {
 		   .setColor("RANDOM")
 		   .addField("Bug report!", rep);
 		   
-		   bot.user.get("MY ID").send(afg);
+		   bot.user.get("378074425066520577").send(afg);
 		   {
    			
    		}
