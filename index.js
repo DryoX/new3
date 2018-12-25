@@ -30,7 +30,6 @@ if(cmd === `{prefix}say`){
 let say = args.join(" ");
 if(!say) return message.channel.send("Anything to say?");
 
-message.catch.delete
 return message.channel.send(say);
 
    }
